@@ -39,10 +39,13 @@ body{
 }
 .PHOTO{
     margin: 0 auto;
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 100%;
+    height: auto;
 }
 
+.price{
+    font-weight: 600;
+}
 .slider{
     height: 75%;
     width: 80%;
@@ -55,8 +58,11 @@ body{
 }
 
 .slider__side{
+
+    display: flex;
     width:50%;
     height:100%;
+    margin:auto 0;
     
 }
 
